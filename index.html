@@ -9,21 +9,158 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <!-- navigation bar -->
-        
+        <div class="nav-bar container-fluid">
+            <nav>
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+
+                <div class="toggle-bar">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <div class="hidden">
+                    <div class="nav-links">
+                        <a href="#home">Home</a>
+                        <a href="#categories">Categories</a>
+                        <a href="#shoes">Shoes</a>
+                        <a href="#backpack">Backpack</a>
+                        <a href="#subscribe">Subscribe</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <div class="container">
+        <main>
+            <!-- Home Section -->
+            <section id="home">
+                <div class="slider flex">
+                    <div class="w-50">
+                        <h1>X-Box for your living room</h1>
+                        <p>This is the best x-box in the world for people who just want to waste time in front of fake
+                            sports.
+                        </p>
+                        <h2>$600</h2>
+                        <button class="buy-btn"><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+                    </div>
 
-    </main>
+                    <div class="w-50">
+                        <img src="images/banner-images/xbox.png" alt="">
+                    </div>
+                </div>
+            </section>
 
-    <footer>
+            <!-- Categories -->
+            <section id="categories">
+                <div class="cats">
+                    <div class="cat bg-blue">
+                        <h2>Watch</h2>
+                        <img src="images/categories/watch.png" alt="">
+                    </div>
+                    <div class="cat bg-yellow">
+                        <h2>Backpack</h2>
+                        <img src="images/categories/bag.png" alt="">
+                    </div>
+                    <div class="cat bg-green">
+                        <h2>Shoes</h2>
+                        <img src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </section>
 
-    </footer>
+            <!-- Shoes -->
+            <section id="shoes">
+                <h1>Shoes</h1>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/shoes/shoe-1.png" alt="">
+                        <h2>Supply 350</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit magnam impedit
+                            reiciendis possimus dolorum?</p>
+                        <h3>$120</h3>
+                        <button class="buy-btn"><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/shoes/shoe-2.png" alt="">
+                        <h2>Nike 360</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit magnam impedit
+                            reiciendis possimus dolorum?</p>
+                        <h3>$250</h3>
+                        <button class="buy-btn"><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/shoes/shoe-3.png" alt="">
+                        <h2>Red Airmax</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit magnam impedit
+                                reiciendis possimus dolorum?</p>
+                            <h3>$300</h3>
+                            <button class="buy-btn"><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Backpack -->
+            <section id="backpack">
+                <h1>Backpacks</h1>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/bags/bag-1.png" alt="">
+                        <h2>Red Laltu Bag</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit magnam impedit
+                            reiciendis possimus dolorum?</p>
+                        <h3>$100</h3>
+                        <button class="buy-btn"><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/bags/bag-2.png" alt="">
+                        <h2>Nil Niltu Bag</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit magnam impedit
+                            reiciendis possimus dolorum?</p>
+                        <h3>$120</h3>
+                        <button class="buy-btn"><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/bags/bag-3.png" alt="">
+                        <h2>Black Kaltu Bag</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore velit magnam impedit
+                                reiciendis possimus dolorum?</p>
+                            <h3>$150</h3>
+                            <button class="buy-btn"><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Subscribe -->
+            <section id="subscribe">
+                <div class="sub">
+                    <h1>LET'S STAY IN TOUCH</h1>
+                    <p>Get updates on sales, specials and more</p>
+                    <form action="">
+                        <input type="email" placeholder="Your Email" required><br>
+                        <button class="submit-btn"><i class="fas fa-paper-plane"></i> Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            &copy; 2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+        </footer>
+    </div>
 </body>
 
 </html>
